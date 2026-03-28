@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Image directories (track example files only)
+input/*
+!input/example.jpg
+output/*
+!output/example.png
+
+# Logs
+error_log.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp

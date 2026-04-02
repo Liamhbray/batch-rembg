@@ -145,6 +145,12 @@ Switch to `u2netp` for 3x speed: `python batch_rembg.py --model u2netp`. CPU-onl
 
 ---
 
-## License
+## Acknowledgements
 
-[MIT](LICENSE)
+This project is a batch-processing wrapper around [rembg](https://github.com/danielgatis/rembg) by [@danielgatis](https://github.com/danielgatis). All background removal is performed by rembg and its underlying models via [ONNX Runtime](https://onnxruntime.ai/).
+
+---
+
+<p align="center">
+  <a href="LICENSE">MIT License</a> · <a href="CONTRIBUTING.md">Contributing</a> · <a href="CHANGELOG.md">Changelog</a>
+</p>
